@@ -15,7 +15,7 @@ spec:
       containers:
       - name: queue
         image: queue
-        imagePullPolicy: Never
+        #imagePullPolicy: Never
 ---
 apiVersion: v1
 kind: Service
